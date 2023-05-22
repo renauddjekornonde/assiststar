@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand img{
+    width: 200px;
+    height: 200px;
+}
+
+.navbar-nav{
+    margin-left: 40%;
+    font-family: "Chivo Mono", monospace;
+    display: flex;
+   font-size: 13.5pt;
+}
+
+.navbar-nav,
+.nav-item{
+    list-style-type: none;
+}
+
+.navbar-nav,
+.nav-item,.nav-link{
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+ul:hover li a {
+    color:#8c642f ;
+}
+
+ul:hover li a:not(:hover) {
+    color:#8c642f;
+    opacity: 0.3;
+   
+}
